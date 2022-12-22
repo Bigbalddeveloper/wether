@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_container">
+            <input id="serch" type="serch" placeholder="You city">
+            </div>
+            <div class="city_container">
+                <div class="city">
+                <h2>თბილისი</h2>
+                <p>ორშაბათი</p>
+                <p id="demo"></p> <!--ეს არის საათი-->
+            </div>
+            <div class="img_container">
+                <img class="img_wether" src="./img/moonlight.png" alt="">
+            </div>
+                <div class="wether">
+                    <h1>-1 ℃</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--saatobrivi amindi-->
+    <section>
+       <div class="container_hours">
+        <div class="row">
+            <div class="card">
+                <a href="#">24 საათიანი პროგნოზი</a>
+                <h3>22 საათი</h3>
+                <img src="./img/33.png" alt="">
+                <h3>-1 ℃</h3>
+            </div>
+            <div class="card">
+                <h3>23 საათი</h3>
+                <img src="./img/33.png" alt="">
+                <h3>-1 ℃</h3>
+            </div>
+            <div class="card">
+                <h3>00 საათი</h3>
+                <img src="./img/33.png" alt="">
+                <h3>-1 ℃</h3>
+            </div>
+            <div class="card">
+                <h3>01 საათი</h3>
+                <img src="./img/33.png" alt="">
+                <h3>-1 ℃</h3>
+            </div>
+            <div class="card">
+                <h3>02 საათი</h3>
+                <img src="./img/33.png" alt="">
+                <h3>-1 ℃</h3>
+            </div>
+        </div>
+        <div class="card_item">
+        <div class="content">
+            <div class="item_5">
+                <div class="class_1">
+                    <img src="./img/icons8-sunset-50.png" alt="">
+                    <h3>მზის ამოსვლა</h3>
+                    <p>08:00:23</p>
+                </div>
+                <div class="soon">
+                    <h3>დღის ხანგრძლივობა</h3>
+                    <img src="./img/WeatherDaylight.svg" alt="">
+                    <p>09 საათი და 08 წუთი</p>
+                </div>
+                <div class="moon">
+                    <img src="./img/icons8-sunset-50.png" alt="">
+                    <h3>მზის ჩასვლა</h3>
+                    <p>17:33</p>
+                </div>
+            </div>
+        </div>
+        </div>
+       </div>
+    </section>
+
+    <!--Dgiuri amindi-->
+    <div class="wether_container">
+        <div class="item">
+            <img src="./img/moonlight.png" alt="">
+            <p>ორშაბათ</p>
+            <span>-1 ℃</span>
+        </div>
+        <div class="item">
+            <img src="./img/moonlight.png" alt="">
+            <p>სამშაბათი</p>
+            <span>-1 ℃</span>
+        </div>
+        <div class="item">
+            <img src="./img/moonlight.png" alt="">
+            <p>ოთხშაბათი</p>
+            <span>-1 ℃</span>
+        </div>
+        <div class="item">
+            <img src="./img/moonlight.png" alt="">
+            <p>ხუთშაბათი</p>
+            <span>-1 ℃</span>
+        </div>
+        <div class="item">
+            <img src="./img/moonlight.png" alt="">
+            <p>პარასკევი</p>
+            <span>-1 ℃</span>
+        </div>
+    </div>
+    <section>
+        <div class="container_horoscop">
+            <div class="item_2">
+                <h2>
+                    Daily Horoscop
+                   </h2>
+                <div class="item_3">
+                   <a href="#">
+                    <img src="./img/aquarius-zodiac-sign-symbol (1).png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/aries-zodiac-symbol-of-frontal-goat-head.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/cancer (2).png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/capricorn.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/gemini.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/leo-sign.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/libra-scale-balance-symbol.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/pisces.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/sagittarius-sign.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/scorpio-vertical-animal-shape-of-zodiac-symbol.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/taurus.png" alt="">
+                   </a>
+                   <a href="#">
+                    <img src="./img/virgo.png" alt="">
+                   </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    setInterval(myTimer, 1000);
+    
+    function myTimer() {
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    }
+    </script>
+</html>
+

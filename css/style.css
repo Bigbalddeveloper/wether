@@ -1,0 +1,332 @@
+*,
+*::after,
+*::before {
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(63, 133, 232);
+    width: 100%;
+    height: 190vh;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    padding: 20px 285px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header_container{
+    padding: 0 60px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#demo{
+    font-size: 20px;
+    color: black;
+   margin-left: -2px;
+}
+
+#serch {
+    
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);   
+    backdrop-filter: blur(1.1px);
+                    -webkit-backdrop-filter: blur(1.1px);
+    border: 1px solid #ccc
+}
+
+.city_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+.city {
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+}
+.city p {
+    margin-top: 20px;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+.img_container {
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 100%;
+    height: auto;
+}
+.img_wether {
+    width: 50%;
+   
+}
+
+.wether {
+    
+    width: 30%;
+    margin-left: 180px;
+    margin-top: 12px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.wether_container{
+
+    margin: 0 250px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 65px 0;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 16%;
+    height: 30vh;
+    background: rgba(240, 239, 239, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item img {
+    width: 62%;
+    margin-top: -10px;
+}
+
+.item p {
+    overflow: hidden;
+    color: white;
+}
+
+.item span {
+
+    opacity: 0.8;
+    color: #ccc;
+}
+
+.wether_hours {
+    width: 100%;
+    display: flex;  
+    
+}
+
+.container_hours{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container_hours a {
+
+    padding-top:6px;
+    font-size:20px;
+   margin-left: 25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.7);
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 28vh;
+    margin-left: 280px;
+    background: rgba(240, 239, 239, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+  
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.card h3 {
+    padding-top:8px;
+    padding-top:6px;
+    font-size:20px;
+    padding-left:0px;
+}
+
+.card img {
+    padding-top:8px;
+    padding-top:6px;
+    font-size:20px;
+    padding-left:0px;
+    width: 40px;
+    margin-top: -4px;
+}
+
+
+.card_item{
+    margin-right: 480px;
+    margin-top: 105px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 15vh;
+    background: rgba(240, 239, 239, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item_5 {
+    margin: 0 60px;
+    gap:150px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.class_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.class_1 h3 {
+    width: 230%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.class_1 p{
+    width: 190%;
+    font-size: 16px;
+}
+
+.soon {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.soon h3 {
+    width: 130%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.soon img {
+    width: 120px;
+}
+
+
+.soon p {
+    width: 100%;
+    font-size: 12px;
+}
+
+.moon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.moon h3 {
+    margin-top: 15px;
+    width: 190%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+ .moon p {
+    width: 100%;
+    font-size: 15px;
+ }
+
+
+.container_horoscop{
+    width: 100%;
+
+}
+.item_2{
+    width: 70%;
+    height:auto;
+    padding: 0 165px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(240, 239, 239, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item_3 {
+    width: 110%;
+    
+}
+
+.item_3 a {
+    text-decoration: none;
+    width: 100%;
+    
+    
+}
+
+.item_3 img {
+   
+   margin-bottom: 20px;
+   margin-left: 60px;
+    padding: 10px 12px;
+    background: rgba(82, 85, 247, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    width: 15%;
+}
+
+.item_2 h2 {
+    color: white;
+    opacity: 0.4;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
